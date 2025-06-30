@@ -1,12 +1,104 @@
-# React + Vite
+# 📝 PasteAPP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimal, and responsive paste tool to save, edit, share, and manage text snippets — like a personal Notepad or Pastebin. Built using **React**, **Vite**, and **Tailwind CSS**, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### Create Paste
+![image](https://github.com/user-attachments/assets/4d39ef03-8a96-4fc8-b4a9-99ed7d561a80)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### View All Pastes
+![image](https://github.com/user-attachments/assets/e3ab3b3f-e587-4b3e-8325-2d4dcb4a1cfa)
+
+
+---
+
+## ✨ Features
+
+- 🔐 Create and manage custom pastes
+- 📋 Copy content with one click
+- ✏️ Edit and delete pastes
+- 🔎 Search among all saved pastes
+- 📱 Fully responsive on all screen sizes
+- 🌙 Dark mode styled UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React.js (Vite)
+- **State Management:** Redux Toolkit
+- **Routing:** React Router
+- **Styling:** Tailwind CSS
+- **Persistence:** Local Storage (no backend)
+- **Languages:** HTML, CSS, JavaScript
+
+
+---
+
+## 🚀 Installation & Running Locally
+
+Follow these steps to run the project on your local machine:
+
+### 1. 📦 Clone the Repository
+```bash
+git clone https://github.com/rkrustom/PasteAPP.git
+cd PasteAPP
+```
+
+### 2. 📂 Install Dependencies  
+```bash
+npm install
+```
+
+### 3. ▶️ Start the Development Server
+
+```bash
+npm run dev
+```
+
+
+## ✅ Prerequisites
+
+- [Node.js](https://nodejs.org/) installed
+
+---
+
+## 📁 Folder Structure
+
+```
+paste-app/
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   ├── data
+│   ├── redux
+│   └── utils
+```
+
+
+## 👤 Author
+
+- Rajeev Kumar  
+- [GitHub - @rkrustom](https://github.com/rkrustom)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- Inspired by tools like Pastebin and minimal Notepad clones
+
